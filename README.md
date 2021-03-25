@@ -12,7 +12,7 @@ Formulário com preenchimento automático de endereço via API [ViaCep](https://
 [Node.js](https://nodejs.org/en/).<br/> 
 [VSCode](https://code.visualstudio.com/)<br/>
 
-### 🎲 Inicializando
+### 🎲 Inicializando :computer:
 
 ```bash
 # Clone este repositório
