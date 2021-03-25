@@ -1,0 +1,18 @@
+// FONT
+$font: 'Montserrat', sans-serif;
+
+// Classes
+.title--large {
+    font-family: $font;
+    font-size: 5em;
+    font-weight: 800;
+}
+
+
+
+/* Color Theme Swatches in RGBA */
+$LOFT-REDUX-LMC-1-rgba: rgba(52,61,63, 1);
+$LOFT-REDUX-LMC-2-rgba: rgba(216,216,216, 1);
+$LOFT-REDUX-LMC-3-rgba: rgba(161,165,165, 1);
+$LOFT-REDUX-LMC-4-rgba: rgba(242,177,56, 1);
+$LOFT-REDUX-LMC-5-rgba: rgba(0,63,99, 1);

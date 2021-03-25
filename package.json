@@ -19,10 +19,14 @@
     "html-webpack-plugin": "^4.4.1",
     "mini-css-extract-plugin": "^0.11.1",
     "node-sass": "^4.14.1",
+    "postcss-loader": "^5.2.0",
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

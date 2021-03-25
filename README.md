@@ -6,14 +6,10 @@ Formulário com preenchimento automático de endereço via API [ViaCep](https://
     :construction: :baby:<br/>
     Em construção
 </h1>
-
-### Pré-requisitos
-
 [Git](https://git-scm.com)<br/>
-[Node.js](https://nodejs.org/en/).<br/> 
-[VSCode](https://code.visualstudio.com/)<br/>
+[Node.js](https://nodejs.org/en/).<br/>
 
-### 🎲 Inicializando :computer:
+### :computer: Inicializando
 
 ```bash
 # Clone este repositório

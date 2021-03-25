@@ -1,0 +1,40 @@
+// Font by Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap');
+
+@import "./reset.css";
+@import "./source-style.scss";
+
+body {
+    background: $LOFT-REDUX-LMC-2-rgba;
+    
+}
+
+.title {
+    @extend .title--large;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: $LOFT-REDUX-LMC-5-rgba;
+}
+
+.content-form {
+    max-width: 60vw;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        width: 80%;
+        input#cep {
+            text-align: center;
+            font-size: 4em;
+        }
+        button {
+            width: 200px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
