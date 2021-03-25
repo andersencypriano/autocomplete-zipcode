@@ -2,15 +2,15 @@
 
 Formulário com preenchimento automático de endereço via API [ViaCep](https://viacep.com.br/)
 
-<h1 align="center"> 
+<h1> 
     Em construção :v: :hammer:
 </h1>
 
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com)<br/>
+[Node.js](https://nodejs.org/en/).<br/> 
+[VSCode](https://code.visualstudio.com/)<br/>
 
 ### 🎲 Inicializando
 
