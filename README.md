@@ -3,7 +3,7 @@
 Formulário com preenchimento automático de endereço via API [ViaCep](https://viacep.com.br/)
 
 <h1> 
-    Em construção :v: :hammer:
+    :construction: :baby: Em construção
 </h1>
 
 ### Pré-requisitos
