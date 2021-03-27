@@ -20,11 +20,9 @@ class AutoAddress {
         fetch(url)
         .then(res => res.json())
         .then(resp => console.log(resp))
+        .catch((error) => {
+            alert(`CEP: ${this.fieldzip.value} é inexistente.`);
+        });
     }
 }
-
-
 const formulario = new AutoAddress('cep');
-
-
-
