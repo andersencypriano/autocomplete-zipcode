@@ -42,8 +42,6 @@ class AutoAddress {
        <input type="text" class="validate" value="${data.uf}">
        `
     };
-
-
 }
 
 //Instance class with params
