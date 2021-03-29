@@ -5,10 +5,8 @@ const button = document.querySelector("button[type='submit']");
 
 // Create class AutoAddress
 class AutoAddress {
-    constructor(fieldzip, options) {
-        this.fieldzip = document.getElementById(fieldzip);
-        this.options = options;
-
+    constructor(fieldzip) {
+        this.fieldzip = document.querySelector(fieldzip)
         this.getZipCode(this.fieldzip);
     }
 
@@ -19,6 +17,7 @@ class AutoAddress {
             const cep = zipcode.value;
             this.conn(cep);
         });
+        createFields();
     };
 
     //Request fetch and return JSON
@@ -34,21 +33,18 @@ class AutoAddress {
 
     //Method from create containers input-field with params
     createFields(data) {
-        console.log(data);
+        console.log(data)
+       const containerFields = document.querySelector("#fields");
+       containerFields.innerHTML = `
+       <input type="text" class="validate" value="${data.logradouro}">
+       <input type="text" class="validate" value="${data.bairro}">
+       <input type="text" class="validate" value="${data.localidade}">
+       <input type="text" class="validate" value="${data.uf}">
+       `
     };
+
+
 }
 
 //Instance class with params
-const form1 = new AutoAddress('cep', {
-    campos: {
-        cep: true,
-        logadouro: true,
-        bairro: true,
-        localidade: true,
-        uf: true,
-        ibge: true,
-        gia: true,
-        ddd: true,
-        siafi: true,
-    }
-});
+const form1 = new AutoAddress('#cep');
