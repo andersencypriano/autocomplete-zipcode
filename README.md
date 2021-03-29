@@ -3,9 +3,6 @@
 Formulário com preenchimento automático de endereço via API [ViaCep](https://viacep.com.br/)
 
 
-[Git] (https://git-scm.com)<br/>
-[Node.js] (https://nodejs.org/en/).<br/>
-
 ### :computer: Inicializando
 
 ```bash
