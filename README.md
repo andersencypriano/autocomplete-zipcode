@@ -18,7 +18,7 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run serve
 
-# O servidor inciará na porta:8080 - acesse <http://localhost:8080>
+# O servidor iniciará na porta:8080 - acesse <http://localhost:8080>
 
 # Prepare os arquivos para produção.
 $ npm run build
